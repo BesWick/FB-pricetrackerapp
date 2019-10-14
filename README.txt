@@ -1,5 +1,6 @@
 This FB price tracker app should show me a list of prices of a requested item in ascending order
 
+A WORK IN PROGRESS
 
 
 Design Plan
