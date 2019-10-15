@@ -1,0 +1,27 @@
+{
+  "name": "fb-pricetrackerapp",
+  "version": "1.0.0",
+  "description": "This FB price tracker app should show me a list of prices of a requested item in ascending order",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BesWick/FB-pricetrackerapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BesWick/FB-pricetrackerapp/issues"
+  },
+  "homepage": "https://github.com/BesWick/FB-pricetrackerapp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.1.0",
+    "nodemon": "^1.19.3"
+  }
+}
