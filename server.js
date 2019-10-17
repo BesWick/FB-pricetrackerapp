@@ -22,3 +22,23 @@ db.connect((err) => {
         }
 
 });
+global.db = db;
+
+
+//MIDDLEWARE
+//bvody parser is a middleware that parses request bodies 
+//to make form data available in req.body
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({
+    extended:true
+}));
+
+const itemsRouter = require('./routes/items.js');
+app.use('/items', itemsRouter);
+
+
+
+app.listen(3000, () => console.log('server started'));
+
+
+
