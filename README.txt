@@ -2,6 +2,8 @@ This FB price tracker app should show me a list of prices of a requested item in
 
 A WORK IN PROGRESS
 
+Technologies used: NodeJS, mySQL, ExpressJS ... (rest will be added)
+
 
 Design Plan
 
